@@ -1,0 +1,60 @@
+Tutorials done for the Team Project text file
+I had spoken to Jasper Lyons regarding commits for those doing tutorials at the start of their
+team project. I was advised to create a text file containing what I had learnt. As this conversation
+took place on Thursday 24th of January, the first commit will contain what I had done prior to this
+from when the sprint had started on Monday 21st of January.
+
+1. https://flutter.io/docs/get-started/ - Prior to and including the 24th January 2019
+	From here I had figured out what programs I had needed to install in order to code and run the
+	planned program. Initially, I had installed Intellij and installed both the Flutter and Dart
+	plug-in along with Android Studio (plug-in) through the IDE itself, however I had learnt that 
+	I had to also install Android Studio on its own through the website link provided. From there,
+	I followed the provided tutorial to successfully install Intellij with the required add-ons,
+	test and install the Android emulator provided with Android Studio and successfully create my
+	first Flutter application using the https://flutter.io/docs/get-started/codelab tutorial.
+	I plan to allocated some time over the next few days to continue with the other tutorials provided
+	on https://flutter.io/docs/get-started/learn-more so I can quickly assist the rest of my team to
+	develop the application.
+	
+	TL;DR:
+	What I had done: 						Installed Intellij with the required plug-ins and Android Studio (standalone)
+											and developed my first application using the tutorial.
+	What will I do before the next scrum:	Do enough tutorials from the "learn-more" section provided on the flutter 
+											website
+											Meet up with the team to figure out what needs to be done before the next scrum
+											and do respective tasks.
+	What obstacles am I facing:				As of typing this particular text file, none as I had resolved all of my issues
+											regarding the installation installation and use of Android Studio within Intellij
+											(for some odd reason, Intellij could not detect an OS to emulate from Android Studio
+											but by adding a new Android VM within Android Studio, this was resolved). Just need
+											more time to progress.
+
+2. https://docs.spring.io/spring/docs/current/javadoc-api/index.html (Using the API link as I made some references to this API) - Prior to and including the 24th January 2019
+	Currently I am resolving an issue when installing Intellij Ultimate Edition as I haven't received the email yet to allow myself to install it. The ultimate edition of
+	Intellij is needed to be able to use Spring (as learnt on https://www.jetbrains.com/help/idea/spring-support.html) so I am currently trying to figure out how to resolve this.
+	As I am still trying to resolve this, I had instead used https://www.tutorialspoint.com/spring/spring_environment_setup.htm to learn Spring through Eclipse as there were no
+	issues with it. I have done the tutorials up to and including https://www.tutorialspoint.com/spring/spring_environment_setup.htm without issue.
+	
+	What I had done: 						Installed Spring on Eclipse and done some of the tutorials.
+	What will I do before the next scrum:	Attempt to resolve the Intellij issue so I can actually use Spring on Intellij. Continue more of the tutorials.
+	What obstacles am I facing:				Cannot install Spring on Intellij, am looking to redeem Intellij Ultimate so I can actually do this.
+
+3. Following on from "2." where I install IntelliJ ultimate - 25th January 2019 to 27th January 2019
+	What I had done: 						Installed IntelliJ Ultimate and successfully added spring as was able to do IntelliJ Spring tutorials
+	What will I do before the next scrum:	Resolve further complex issues caused by Android Studio and the new IntelliJ installation, may be something
+											to do with environment variables on my PC however that is something I need to figure. Continue with Flutter
+											tutorials when this is resolved, I had like to do more until the 28th however I am unable to do them due to
+											the reinstallation.
+	What obstacles am I facing:				Cannot run applications within IntelliJ Ultimate right now. I had asked in the our Slack group as to
+											what the issue may be and was advised by Emil to instead use Android Studio just for app development
+											Discovered that the issue persists on Android Studio so it's an issue that is local to my PC and not the
+											the IDEs. Am attempting to resolve this ASAP.
+							
+4. Following on from "3." installing on a different device and seeing if I can resolve the issue otherwise - 28th January 2019
+	What have I done:						I decided to install both IntelliJ and Android Studio on another device and see if I could resolve the issue. Using flutter doctor to
+											diagnose issues, I was able to install and emulate software and code without issue. This means that the issue that has persisted is
+											definitely solvable will be something I intend to resolve in the very near future.
+	What will I do before the next scrum:	Fix the issues I am having with my installation of IntelliJ/Android Studio and catch up on tutorials as a lot of time was lost trying to
+											resolve this.
+	What obstacles am I facing:				Same obstacle as 3. however I have made progress on as to what the issue may be, will attempt to reinstall when I next get access to my
+											primary PC.
