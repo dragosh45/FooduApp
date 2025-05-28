@@ -1,3 +1,4 @@
+
 # 🍽️ FooduApp – Find & Pre-Order Dishes with a Swipe
 
 A university project built with **Java** and **Flutter** (with a React UI), Foodu combines the best of **Tinder** and **Yelp** to match users with restaurants and allow dish pre-ordering.
@@ -52,61 +53,67 @@ Foodu is designed for food lovers who want to discover dishes (not just restaura
 cd client-react
 npm install
 npm start
-📱 Flutter Mobile App
-bash
-Copy
-Edit
+```
+
+### 📱 Flutter Mobile App
+```bash
 cd client-flutter
 flutter pub get
 flutter run
-☕ Java Backend
-Check /server or backend/ (if applicable) for Spring Boot-style API
+```
 
-bash
-Copy
-Edit
+### ☕ Java Backend
+> Check `/server` or `backend/` (if applicable) for Spring Boot-style API
+```bash
 cd backend
 ./gradlew bootRun
-📦 Project Structure
-graphql
-Copy
-Edit
+```
+
+---
+
+## 📦 Project Structure
+
+```
 FooduApp/
 ├── client-react/           # Web frontend (React)
 ├── client-flutter/         # Mobile client (Flutter/Dart)
 ├── backend/ or server/     # Java backend API (Spring-style)
 └── README.md               # You’re here
-🧪 Team Collaboration (Trimmed Summary)
-Scrum-based Agile methodology (2-week sprints)
+```
 
-Trello for task management
+---
 
-Git branching model:
+## 🧪 Team Collaboration (Trimmed Summary)
 
-master: stable releases
+- Scrum-based Agile methodology (2-week sprints)
+- Trello for task management
+- Git branching model:
+  - `master`: stable releases
+  - `Devel`: ongoing development
+  - `feat/*`, `bug/*`, `wip/*`: feature & fix branches
+- Commit messages follow Conventional Commits
 
-Devel: ongoing development
+---
 
-feat/*, bug/*, wip/*: feature & fix branches
+## 🧹 Conventions & Practices
 
-Commit messages follow Conventional Commits
+- ✅ Java: Google Checkstyle
+- ✅ Dart: `dartfmt`
+- ✅ Tests written before new Dart features
+- ✅ Code reviews before merge into `Devel` or `master`
 
-🧹 Conventions & Practices
-✅ Java: Google Checkstyle
+---
 
-✅ Dart: dartfmt
+## 🏁 Versioning
 
-✅ Tests written before new Dart features
-
-✅ Code reviews before merge into Devel or master
-
-🏁 Versioning
 Tags follow sprint progression:
+- `v0.1`, `v0.2`, ..., `v1.0` → End-of-sprint tags
+- Final release = `v1.0`
 
-v0.1, v0.2, ..., v1.0 → End-of-sprint tags
+---
 
-Final release = v1.0
+## 📢 Contributions
 
-📢 Contributions
 Contributions were made as part of an academic team project. The repo uses protected branches and pull requests for quality assurance.
 
+---
